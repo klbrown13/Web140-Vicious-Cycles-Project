@@ -1,0 +1,136 @@
+<!-- Contact Us page -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+	<div id="page-container">
+		<div id="content-wrap">
+			<!-- Header -->
+			<header>
+				<div>
+					<a href="index.html"><img src="images/vicious-cycles-logo.png" alt="Vicious Cycles Logo" class="logo"></a>
+				</div>
+				<!-- Navigation -->
+				<nav class="navigation"> <a href="index.html">Home</a>
+					<div class="dropdown"> <a href="aboutus.html">About Us</a>
+						<div class="dropdown-content"> <a href="service.html">Service</a> </div>
+					</div>
+					<div class="dropdown"> <a href="ourmotorcycles.html">Our Motorcycles</a>
+						<div class="dropdown-content"> <a href="accessories.html">Accessories</a> </div>
+					</div> <a href="buildabike.html">Build a Bike</a> <a href="contactus.html">Contact Us</a> </nav>
+			</header>
+			<div class="topbodycontact">
+				<!-- Background image -->
+			</div>
+			<h1>Contact</h1>
+			<!-- Form for contact information -->
+			<form>
+				<fieldset class="contact-fieldset">
+					<legend class="contact-legend">Personal Information</legend>
+					<p class="contact-paragraph">
+						<label for="fName">First Name:</label>
+						<input type="text" id="fName"> </p>
+					<p class="contact-paragraph">
+						<label for="lName">Last Name:</label>
+						<input type="text" id="lName"> </p>
+					<p class="contact-paragraph">
+						<label for="phone">Phone Number:</label>
+						<input type="tel" id="phone"> </p>
+					<p class="contact-paragraph">
+						<label for="email">Email Address:</label>
+						<input type="email" id="email"> </p>
+				</fieldset>
+				<fieldset class="contact-fieldset">
+					<legend class="contact-legend">What is the issue concerning?</legend>
+					<p class="contact-paragraph">
+						<input type="checkbox" id="generalQuestion">
+						<label for="generalQuestion">General Question</label>
+					</p>
+					<p class="contact-paragraph">
+						<input type="checkbox" id="service">
+						<label for="service">Service</label>
+					</p>
+					<p class="contact-paragraph">
+						<input type="checkbox" id="motorcycles">
+						<label for="motorcycles">Motorcycles</label>
+					</p>
+					<p class="contact-paragraph">
+						<input type="checkbox" id="accessories">
+						<label for="accessories">Accessories</label>
+					</p>
+					<p class="contact-paragraph">
+						<input type="checkbox" id="buildingABike">
+						<label for="buildingABike">Building a Bike</label>
+					</p>
+				</fieldset>
+				<fieldset class="contact-fieldset">
+					<legend class="contact-legend">What is the best way to reach you?</legend>
+					<p class="contact-paragraph">
+						<input type="radio" id="phoneNumber" name="reach">
+						<label for="phoneNumber">Phone</label>
+					</p>
+					<p class="contact-paragraph">
+						<input type="radio" id="emailAddress" name="reach">
+						<label for="emailAddress">Email</label>
+					</p>
+					<p class="contact-paragraph">
+						<input type="radio" id="phoneOrEmail" name="reach">
+						<label for="phoneOrEmail">Phone or Email</label>
+					</p>
+				</fieldset>
+				<fieldset class="contact-fieldset">
+					<legend class="contact-legend">Do you currently own a bike from Vicious Cycles?</legend>
+					<select name="motorcycleSelection" id="motorcycleSelection">
+						<option value="chooseAnOption">Choose an Option</option>
+						<option value="kawasaki250">Kawasaki Ninja 250R</option>
+						<option value="kawasaki300">Kawasaki Ninja 300</option>
+						<option value="kawasaki400">Kawasaki Ninja 400</option>
+						<option value="ducati1199">Ducati 1199 Pangale S</option>
+						<option value="ducati1299">Ducati 1299 Pangale</option>
+						<option value="ducatiV4">Ducati Pangale V4</option>
+						<option value="twoOrMore">Two or more bikes</option>
+						<option value="no">No</option>
+					</select>
+					<br>
+					<br> </fieldset>
+				<fieldset class="contact-fieldset">
+					<legend class="contact-legend">Comments</legend>
+					<textarea name="comments" id="comments" cols="30" rows="10" placeholder="Add your comments here"></textarea>
+					<div class="contact-div">
+						<button class="contact-btn">Submit Form</button>
+					</div>
+				</fieldset>
+			</form>
+			<!-- Footer -->
+			<footer id="footer">
+				<div class="footer-text">
+					<h3 id="footer-h3">Vicious Cycles</h3>
+					<p>1500 Sunrise Avenue.</p>
+					<p>Raleigh, NC 27608</p>
+					<p>Phone: (919) 123-4567</p>
+					<p>Fax: (919) 123-9875</p>
+					<!-- Social Media -->
+					<p>Need more Vicious Cycles? Follow us on Facebook and Twitter!</p>
+					<div class="social-media">
+						<a href="https://www.facebook.com"><img src="images/facebooklogo.png" alt="Facebook Logo" height="32" width="32"></a>
+						<a href="https://www.twitter.com"><img src="images/twitterlogo.png" alt="Twitter Logo" height="32" width="32"></a>
+						<p>&copy; 2023 Kurt Brown </p>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+</body>
+
+</html>
